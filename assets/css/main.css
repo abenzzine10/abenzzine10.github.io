@@ -1802,6 +1802,7 @@ input, select, textarea {
 		.image.featured {
 			display: block;
 			width: 100%;
+			height: auto;
 			margin: 0 0 4em 0;
 		}
 
@@ -1839,6 +1840,25 @@ input, select, textarea {
 		ol li {
 			padding-left: 0.25em;
 		}
+
+	.tags {
+		text-align: left;
+	}
+
+	.btn-icon {
+		display: inline;
+		margin-right: 5px;
+	}
+
+	.btn-github {
+		background-color: #302c31;
+	}
+
+	.btn-demo {
+		background-color: #0b996a;
+	}
+
+
 
 /* Actions */
 
